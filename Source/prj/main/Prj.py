@@ -253,6 +253,8 @@ def _main():
 
     argv = sys.argv[1:]
 
+    print(argv)
+
     # If it's 2 then it only has the -cfg param
     if len(argv) == 0:
         parser.print_help()
